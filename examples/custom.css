@@ -7,3 +7,23 @@
 .fc-toolbar-title:after{
     content: ' 직원휴무표';
 }
+@media(max-width:500px){
+.fc-today-button.fc-button{
+    display:none;
+}
+.fc-prev-button.fc-button{
+    display:none;
+}
+.fc-next-button.fc-button{
+    display:none;
+}
+.fc-toolbar{
+    margin:0 auto;
+}
+.fc-daygrid-day{
+    height: 50px;
+}
+#calendar{
+    height: 600px;
+}
+}
