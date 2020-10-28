@@ -1,0 +1,9 @@
+.fc-col-header-cell.fc-day.fc-day-sun{
+    color: red;
+}
+.fc-col-header-cell.fc-day.fc-day-sat{
+    color: blue;
+}
+.fc-toolbar-title:after{
+    content: ' 직원휴무표';
+}
