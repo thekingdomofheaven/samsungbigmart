@@ -7,6 +7,9 @@
 .fc-toolbar-title:after{
     content: ' 직원휴무표';
 }
+.fc-event-title-container{
+    text-align: center;
+}
 @media(max-width:500px){
 .fc-today-button.fc-button{
     display:none;
